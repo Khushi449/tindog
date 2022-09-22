@@ -1,0 +1,145 @@
+body{
+  font-family: 'Ibarra Real Nova', serif;
+  text-align: center;
+}
+
+h2,h3{
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+.big-heading{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+/* download-button */
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+/* titleimage */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  margin: auto auto -12rem 50px;
+}
+
+/* features-section ke font awesome */
+#features{
+  background-color: white;
+  position: relative;
+}
+.features-section{
+  margin-top: 10%;
+  font-size: 3rem;
+  color: #ef8172;
+}
+.features-section:hover{
+  color: #ff4c68;
+}
+.feature{
+  width: 50%;
+  color: #8f8f8f;
+}
+.container{
+  padding: 10% 0;
+}
+.feature{
+  margin-left: 25%;
+}
+.what-features{
+  color: black;
+  font-size: 1.5rem;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  padding: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+}
+/* pricing */
+.price{
+  color: black;
+}
+.pricing-section{
+  color: black;
+}
+.pricing-column{
+  padding: 50px;
+}
+.dog-names{
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    transform: rotate(0);
+    margin: 0;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  color: white;
+  background-color: #ff4c68;
+  padding: 70px;
+}
+.cta-{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  margin: 7% auto;
+}
+.cta-sec{
+  margin: 0 10px;
+}
+
+#footer{
+  padding: 70px 50px 50px;
+}
+.icons{
+  margin: 10px;
+}
